@@ -1,0 +1,41 @@
+body {
+    background-color: #EFEFEF;
+    margin: 0;
+    font-size: 16px;
+}
+nav {
+    min-height: 3rem;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list-item {
+    padding: 1rem 1.5rem;
+}
+.nav-button {
+    background-color: #272828;
+    color: #fefdfc;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+}
+.hero {
+    border: 1px solid red;
+    min-height: 3rem;
+}
+.trust {
+    border: 1px solid red;
+    min-height: 3rem;
+}
+.benefit {
+    border: 1px solid red;
+    min-height: 3rem;
+}
